@@ -20,10 +20,10 @@ public class AggregatorApp {
 			-->> YOUR WORK SHOULD BE DONE IN THE AggregatorProcessor CLASS. 
 		**/
 
-//		MinAggregator agg = new MinAggregator();
-//		AggregatorProcessor<MinAggregator> aggsProcessor = new AggregatorProcessor<MinAggregator>(agg, "table.csv");
-//		double value = aggsProcessor.runAggregator(1);
-//		System.out.println(value);
+		MinAggregator agg = new MinAggregator();
+		AggregatorProcessor<MinAggregator> aggsProcessor = new AggregatorProcessor<MinAggregator>(agg, "table.csv");
+		double value = aggsProcessor.runAggregator(1);
+		System.out.println(value);
 	
 
 	}
